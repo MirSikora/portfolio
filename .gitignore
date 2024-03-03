@@ -1,0 +1,4 @@
+app.ini
+
+# matches any files and directories with the name hangman
+hangman
