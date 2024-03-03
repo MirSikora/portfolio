@@ -24,7 +24,10 @@ body{
     background-color: var(--bg_color);
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
 }
-.flash{    
+.flash{
+    position: absolute;    
+    top: 0;
+    width: 100%;
     background-color: var(--yellow);
     color: var(--bg_color);
     text-align: center;
@@ -58,6 +61,7 @@ p{
 /***** ASIDE *****/
 
 aside{
+    position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;

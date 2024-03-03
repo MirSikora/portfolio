@@ -14,6 +14,7 @@
         $lang = $_GET['lang'];
     }    
     $second_lang = $lang=='cs' ? 'en' : 'cs';
+    
 ?>
 <head>
     <meta charset="UTF-8">
@@ -27,14 +28,17 @@
 
 <body>
 
-    <?php if(isset($_SESSION['flash'])): ?>
-    <div class="flash">
-        <?php echo $_SESSION['flash']; 
-        session_unset();?>
-    </div>
-    <?php endif ?>
     <div class="container">
+        
         <aside>
+
+            <?php if(isset($_SESSION['flash'])): ?>
+            <div class="flash">                
+                <?php echo $_SESSION['flash']; 
+                session_unset();?> 
+            </div>
+            <?php endif ?>
+
             <h1>Miroslav Sikora</h1>
             <h4>Full Stack developer | PHP | HTML | JavaScript | C# | Java</h4>
             <ul class="other-sites">
