@@ -46,11 +46,11 @@
                 <li><a href="https://www.linkedin.com/in/mir-sikora/"><img src="images/icons/linkedin.svg" alt="LinkedIn"></a></li>
                 <li><a href="/?lang=<?php echo $second_lang ?>"><img class="lang-icon" src="images/icons/<?php echo $second_lang; ?>.png" alt="<?php echo $second_lang; ?>"></a></li>
             </ul>
-            <div class="menu">
-                <li><a href="#projects"><?php echo strtoupper($project_title[$lang]['title'])?></a></li>
-                <li><a href="#about"><?php echo strtoupper($about[$lang]['title'])?></a></li>
-                <li><a href="#contact"><?php echo strtoupper($contact[$lang]['title']) ?></a></li>
-            </div>
+            <nav class="menu">
+                <a href="#projects" class="active"><?php echo strtoupper($project_title[$lang]['title'])?></a>
+                <a href="#about"><?php echo strtoupper($about[$lang]['title'])?></a>
+                <a href="#contact"><?php echo strtoupper($contact[$lang]['title']) ?></a>
+            </nav>
         </aside>
         <main>
             <section class="projects" id="projects">
@@ -108,13 +108,14 @@
                 </article>
             </section>
             <footer>
-                MirSikora &copy 2024 <a href="https://github.com/MirSikora">&lt;Open Source Licence - GitHub&gt;</a>
+                MirSikora &copy 2024 <a href="https://github.com/MirSikora/portfolio">&lt;Open Source Licence - GitHub&gt;</a>
             </footer>
         </main>    
     </div>       
 
     <script src="js/validation.js"></script>
     <script src="js/image-filter.js"></script>
+    <script src="js/active-navbar.js"></script>
 
 </body>
 

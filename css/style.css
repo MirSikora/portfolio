@@ -46,11 +46,11 @@ p{
         justify-content: space-between;            
     }
     main{
-        width: 50%;
+        width: 50%;        
         overflow: scroll;
         overflow-x: hidden;        
         scrollbar-color: var(--first_color) var(--bg_color);
-        scrollbar-width: thin;        
+        scrollbar-width: thin;              
     }
     aside{
         width: 50%;
@@ -116,18 +116,19 @@ h4{
     filter: none;
 }
 .menu{
+    display: flex;
+    flex-direction: column;
     height: 70px;
     list-style-type: none;
     margin-top: 30px;
 }
-.menu li{
-    padding: 5px;
-}
 .menu a{
+    padding: 5px;
     text-decoration: none;
     color: var(--text_color);
     transition: all 0.5s linear;    
 }
+.active,
 .menu a:hover{
     font-size: 16px;
 }

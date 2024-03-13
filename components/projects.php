@@ -10,7 +10,7 @@ $projects['cs'] = [
         'color' => 'green',
         'programming_language' => 'JavaScript',
         'web_page' => './hangman',
-        'github_code' => 'hangman'
+        'github_code' => 'https://github.com/MirSikora/hangman'
     ],
     [
         'id' => 2,
@@ -19,18 +19,18 @@ $projects['cs'] = [
         'image' => 'images/projects/bookstore.png',
         'color' => 'yellow',
         'programming_language' => 'PHP | Nette | MySQL',
-        'web_page' => './bookstore/www',
+        'web_page' => './bookstore',
         'github_code' => 'https://github.com/MirSikora/bookstore-nette-project'
     ],
     [
         'id' => 3,
-        'name' => 'DreamHotel',
-        'description' => 'Webové stránky hotelu.',
-        'image' => 'images/projects/dreamhotel.png',
+        'name' => 'Bistro u Ally',
+        'description' => 'Webová stránka našeho bývalého rodinného bistra.',
+        'image' => 'images/projects/bistroually.png',
         'color' => 'blue',
         'programming_language' => 'HTML | Bootstrap | Sass',
-        'web_page' => './dreamhotel',        
-        'github_code' => 'https://github.com/MirSikora/DreamHotel'
+        'web_page' => './bistroually',        
+        'github_code' => 'https://github.com/MirSikora/bistroually'
     ],
     [
         'id' => 4,
@@ -65,7 +65,7 @@ $projects['en'] = [
         'color' => 'green',
         'programming_language' => 'JavaScript',
         'web_page' => './hangman',
-        'github_code' => 'https://github.com/MirSikora/TheHangman'
+        'github_code' => 'https://github.com/MirSikora/hangman'
     ],
     [
         'id' => 2,
@@ -74,18 +74,18 @@ $projects['en'] = [
         'image' => 'images/projects/bookstore.png',
         'color' => 'yellow',
         'programming_language' => 'PHP | Nette | MySQL',
-        'web_page' => './bookstore/www',
+        'web_page' => './bookstore',
         'github_code' => 'https://github.com/MirSikora/bookstore-nette-project'
     ],
     [
         'id' => 3,
-        'name' => 'DreamHotel',
-        'description' => 'Hotel website.',
-        'image' => 'images/projects/dreamhotel.png',
+        'name' => 'Bistro u Ally',
+        'description' => 'The website of our former family bistro.',
+        'image' => 'images/projects/bistroually.png',
         'color' => 'blue',
         'programming_language' => 'HTML | Bootstrap | Sass',
-        'web_page' => '.dreamhotel',        
-        'github_code' => 'https://github.com/MirSikora/DreamHotel'
+        'web_page' => './bistroually',        
+        'github_code' => 'https://github.com/MirSikora/bistroually'
     ],
     [
         'id' => 4,
