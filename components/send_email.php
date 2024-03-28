@@ -10,7 +10,7 @@ session_start();
 
 $ini = parse_ini_file('../app.ini');
 
-if(isset($_POST)){
+if(isset($_POST) && trim($_POST['email'])!='' && trim ($_POST['message'])!=''){
 
     $email = $_POST['email'];
     $message = $_POST['message'];
@@ -54,4 +54,8 @@ if(isset($_POST)){
     $_SESSION['flash'] = $message;
     header("Location: /");
         
-}   
+}else{
+
+    header("Location: /");
+
+}  
